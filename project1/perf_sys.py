@@ -93,6 +93,8 @@ def perf_sys(block, start, target):
                     if(validity_reg):
                         finish = 1
                         nonce_final_string = "["+hex(nonce_final[0])+", "+hex(nonce_final[1])+", "+hex(nonce_final[2])+", "+hex(nonce_final[3])+"]"
+                        print("------ Number of iterations used:------", '\n')
+                        print("          ",loop_variable, '\n')
                         return nonce_final_string, finish
                     else:
                         # limit loop module
