@@ -97,7 +97,7 @@ def perf_sys(block, start, target):
                     else:
                         # limit loop module
                         loop_variable, fail = loop_limit(loop_variable, LOOP_LIMIT)
-                        print(loop_variable)
+                        #print(loop_variable)
                         if(fail):
                             print(FAIL_MESSAGE, '\n')
                             return nonce_string_zero, finish
