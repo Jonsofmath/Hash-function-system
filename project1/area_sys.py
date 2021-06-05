@@ -59,6 +59,10 @@ def area_sys(block, start, target):
 
                     if(validity_reg):
                         finish = 1
+                        
+                        print("------ Number of iterations used:------", '\n')
+                        print("          ",loop_variable, '\n')
+                        
                         return nonce_string, finish
                     else:
                         # limit loop module
